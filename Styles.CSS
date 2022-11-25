@@ -3,31 +3,61 @@ body {
 }
 header {
     display: inline-block;
-    width: 1200px;
+    width: 800px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: calc((100% - 2500px) / 2);
+    margin-left: calc((100% - 800px) / 2);
     background-color: blue;}
     header>img {
         height: 100px;
-        float: top;}
-        header>nav {
-            float: bottom;
-            margin-top: 3.8px;}
-            nav>a {
-                display: inline-block;
-                padding: 0.3em;
-                padding-left: 0.7em;
-                padding-right: 0.7em;
-                margin-left: 0.5em;
-                font-family: monospace;
-                font-size: 20px;
-                line-height: 1em;
-                text-decoration: none;
-                color: red;
-                border: 0.1em solid transparent;
-                border-radius: 0.2em;
+        float: left;}
+    header>nav {
+        float: bottom;
+        margin-top: 4.0px;
+        padding: 0.3em;
+        padding-left: 0.7em;
+        padding-right: 0.7em;
+        margin-left: 0.5em;}
+    
+        nav>a {
+        display: inline-block;
+       
+      
+        font-family: monospace;
+        font-size: 30px;
+        line-height: 1em;
+        text-decoration: none;
+        color: red;
+        border: 0.1em solid transparent;
+        border-radius: 0.2em;
             }
+            nav>a:first-child {
+                margin-left: 0;
+            }
+    
+            nav>a:hover {
+                border-color: #3F4371;
+            }
+    
+            main {
+                display: inline-block;
+                width: 800px;
+                margin-top: 40px;
+                margin-left: calc((100% - 800px) / 2);
+            }
+    
+            main>div {
+                width: 35%;
+                float: left;
+            }
+    
+            main>img {
+                width: 60%;
+                float: right;
+            }
+
+        
+    
     
 
 
