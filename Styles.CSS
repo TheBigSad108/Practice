@@ -6,8 +6,29 @@ header {
     width: 1200px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: calc((100% - 1200px) / 2);
+    margin-left: calc((100% - 2500px) / 2);
+    background-color: blue;}
+    header>img {
+        height: 100px;
+        float: top;}
+        header>nav {
+            float: bottom;
+            margin-top: 3.8px;}
+            nav>a {
+                display: inline-block;
+                padding: 0.3em;
+                padding-left: 0.7em;
+                padding-right: 0.7em;
+                margin-left: 0.5em;
+                font-family: monospace;
+                font-size: 20px;
+                line-height: 1em;
+                text-decoration: none;
+                color: red;
+                border: 0.1em solid transparent;
+                border-radius: 0.2em;
+            }
+    
 
 
 
-}
